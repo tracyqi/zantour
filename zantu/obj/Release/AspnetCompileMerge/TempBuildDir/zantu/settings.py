@@ -20,16 +20,6 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': path.join(PROJECT_ROOT, 'db.sqlite3'),
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
-    }
-}
-DATABASES = {
-    'default': {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'tourguide',
         'USER': 'migouser',
@@ -42,6 +32,7 @@ DATABASES = {
         }
     }
 }
+
 LOGIN_URL = '/login'
 
 # Local time zone for this installation. Choices can be found here:
@@ -145,9 +136,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'app',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'django.contrib.admindocs',
 )
 
 # A sample logging configuration. The only tangible logging
