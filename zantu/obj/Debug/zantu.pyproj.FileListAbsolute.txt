@@ -1,0 +1,15 @@
+F:\Git\tourguide\zantu\zantu\bin\Microsoft.PythonTools.WebRole.dll
+F:\Git\tourguide\zantu\zantu\obj\Debug\attach_server.py
+F:\Git\tourguide\zantu\zantu\obj\Debug\visualstudio_py_debugger.py
+F:\Git\tourguide\zantu\zantu\obj\Debug\visualstudio_py_repl.py
+F:\Git\tourguide\zantu\zantu\obj\Debug\visualstudio_py_util.py
+F:\Git\tourguide\zantu\zantu\obj\Debug\__init__.py
+F:\Git\tourguide\zantu\zantu\obj\Debug\__main__.py
+F:\Git\tourguide\zantu\zantu\bin\AzureSetup.cfg
+F:\Git\tourguide\zantu\zantu\bin\Microsoft.PythonTools.AzureSetup.exe
+F:\Git\tourguide\zantu\zantu\bin\Microsoft.PythonTools.AzureSetup.exe.config
+F:\Git\tourguide\zantu\zantu\bin\wfastcgi.py
+F:\Git\tourguide\zantu\zantu\obj\Debug\deployment-updated-pyvenv.cfg
+F:\Git\tourguide\zantu\zantu\ptvs_virtualenv_proxy.py
+F:\Git\tourguide\zantu\zantu\obj\Debug\web.config
+F:\Git\tourguide\zantu\zantu\obj\Debug\web.debug.config

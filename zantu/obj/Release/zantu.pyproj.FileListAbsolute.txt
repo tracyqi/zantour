@@ -1,0 +1,9 @@
+F:\Git\tourguide\zantu\zantu\bin\Microsoft.PythonTools.WebRole.dll
+F:\Git\tourguide\zantu\zantu\bin\AzureSetup.cfg
+F:\Git\tourguide\zantu\zantu\bin\Microsoft.PythonTools.AzureSetup.exe
+F:\Git\tourguide\zantu\zantu\bin\Microsoft.PythonTools.AzureSetup.exe.config
+F:\Git\tourguide\zantu\zantu\bin\wfastcgi.py
+F:\Git\tourguide\zantu\zantu\obj\Release\deployment-updated-pyvenv.cfg
+F:\Git\tourguide\zantu\zantu\ptvs_virtualenv_proxy.py
+F:\Git\tourguide\zantu\zantu\obj\Release\web.config
+F:\Git\tourguide\zantu\zantu\obj\Release\web.debug.config
