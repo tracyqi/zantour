@@ -28,7 +28,20 @@ DATABASES = {
         'PORT': '',
     }
 }
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'sql_server.pyodbc',
+        'NAME': 'tourguide',
+        'USER': 'migouser',
+        'PASSWORD': 'FamilySafety!',
+        'HOST': 'xwmilyml1x.database.windows.net',
+        'PORT': '1433',
+        'OPTIONS': {
+            'driver': 'SQL Server Native Client 11.0',
+            'MARS_Connection': 'True',
+        }
+    }
+}
 LOGIN_URL = '/login'
 
 # Local time zone for this installation. Choices can be found here:

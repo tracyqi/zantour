@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <title>{{ title }} - zantour(©):</title>
+    <title>{{ title }} - zantour&copy;</title>
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/skel.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'app/content/style-xlarge.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/style-xlarge.css' %}" />
 
     <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
 
 
-		<!--[if lte IE 8]><script src="app/content/ie/html5shiv.js"></script><![endif]-->
-		<script src="app/scripts/jquery.min.js"></script>
-		<script src="app/scripts/skel.min.js"></script>
-		<script src="app/scripts/skel-layers.min.js"></script>
-		<script src="app/scripts/init.js"></script>
-		<!--[if lte IE 8]><link rel="stylesheet" href="app/content/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 8]><script src="app/content/ie/html5shiv.js"></script><![endif]-->
+    <script src="app/scripts/jquery.min.js"></script>
+    <script src="app/scripts/skel.min.js"></script>
+    <script src="app/scripts/skel-layers.min.js"></script>
+    <script src="app/scripts/init.js"></script>
+    <!--[if lte IE 8]><link rel="stylesheet" href="app/content/ie/v8.css" /><![endif]-->
 
 </head>
 
@@ -34,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               <!-- <a href="/" class="navbar-brand">Application name</a>-->
+                <!-- <a href="/" class="navbar-brand">Application name</a>-->
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -45,22 +45,9 @@
             </div>
         </div>
     </div>
-    <div>
-		<!-- Banner -->
-			<section id="banner">
-				<h2>zantour(©)导游</h2>
-				<p>您北美旅游购物服务的最佳帮手。</p>
-				<p>当地华人服务华人.</p>
-				<ul class="actions">
-					<li>
-						<a href="#" class="button big">开始吧</a>
-					</li>
-				</ul>
-			</section>
-        </div>
     <div class="container body-content">
         {% block content %}{% endblock %}
-        </div>
+    </div>
     <!-- Footer -->
     <footer id="footer">
         <div class="container">
@@ -122,7 +109,7 @@
     <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
     <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
     <script src="{% static 'app/scripts/respond.js' %}"></script>
-{% block scripts %}{% endblock %}
+    {% block scripts %}{% endblock %}
 
 </body>
 </html>
