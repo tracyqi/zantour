@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <title>{{ title }} - zantour(©):</title>
+    <title>{{ title }} - zantour&copy;</title>
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
@@ -44,19 +44,6 @@
                 {% include 'app/loginpartial.html' %}
             </div>
         </div>
-    </div>
-    <div>
-        <!-- Banner -->
-        <section id="banner">
-            <h2>zantour(©)导游</h2>
-            <p>您北美旅游购物服务的最佳帮手。</p>
-            <p>当地华人服务华人.</p>
-            <ul class="actions">
-                <li>
-                    <a href="#" class="button big">开始吧</a>
-                </li>
-            </ul>
-        </section>
     </div>
     <div class="container body-content">
         {% block content %}{% endblock %}
