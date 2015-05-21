@@ -1,0 +1,22 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>Tourguides.</h2>
+<br/>
+
+
+<table class="table table-hover">
+    <tbody>
+        {% for tg in latest_poll_list %}a
+        <tr>
+            <td>
+                <a href="{% url 'app:detail' tg.name %}">{{tg.name}}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+{% endblock %}

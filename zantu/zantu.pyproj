@@ -30,6 +30,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\admin.py" />
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
     <Compile Include="app\tests.py" />
@@ -55,6 +56,7 @@
     <Folder Include="zantu\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\samples.json" />
     <Content Include="app\static\app\content\font-awesome.min.css" />
     <Content Include="app\static\app\content\ie\backgroundsize.min.htc" />
     <Content Include="app\static\app\content\ie\html5shiv.js" />
@@ -86,6 +88,8 @@
     <Content Include="app\static\app\scripts\jquery.min.js" />
     <Content Include="app\static\app\scripts\skel-layers.min.js" />
     <Content Include="app\static\app\scripts\skel.min.js" />
+    <Content Include="app\templates\app\tourguidelist.html" />
+    <Content Include="app\templates\app\apply4tourguide.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
